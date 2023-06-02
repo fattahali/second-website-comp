@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceckout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="search">
+                <input type="text" placeholder="search" size="20px">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>     
+            <div class="logo">
+                <a href="index.html"><p>Mohamed Abdelfattah Aly</p></a>
+                
+            </div>
+            <div class="header-icons">
+                
+                <div class="circle">2</div>
+                <i class="fa-solid fa-user icons"></i>
+                <i class="fa-regular fa-heart icons"></i>
+                <i class="fa-solid fa-cart-shopping icons"></i>
+            </div>
+        </section>
+        <nav>
+            <a href="index.html" class="arrow">
+                    HOME
+                    <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <a href="about.html">ABOUT
+                <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <a href="shop.html">SHOP</a>
+            <a href="#">CATALOUGE</a>
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    <section class="cart-sec1">
+        <p><span style="color: blueviolet;">Home</span> / <span style="color: blueviolet;">Cart</span> / <span style="color: black;">Checkout</span></p>
+    </section>
+    <section class="checkout-sec2" >
+        <div class="login">
+            <p>Returning customer ? <a href="#">Click here</a> to lgin</p>
+        </div>
+        <div class="full-fill">
+            <div class="left-side">
+                <h1>Billing Details</h1>
+                <div class="billing-details">
+                    <form action="#">
+                        <div>
+                            <div class="label fisrt-label"><label>Country <span style="color: crimson; font-size: 12px;">*</span></label></div>
+                            <div><select name="country" class="country" required>
+                                <option selected disabled>Select a Country</option>
+                                <option value="Egypt" class="option">Egypt</option>
+                                <option value="Saudi Arabia">Saudi Arabia</option>
+                                <option value="Jordan">Jordan</option>
+                            </select>
+                            </div>
+                        </div>  
+                        <div class="name">
+                            <div>
+                                <div class="label"><label>First Name <span style="color: crimson; font-size: 12px;">*</span></label></div>
+                                <div><input type="text" name="first-name" placeholder="Enter Your Fisrt Name " required></div>
+                            </div>
+                            <div>
+                                <div class="label"><label>Last Name <span style="color: crimson; font-size: 12px;">*</span></label></div>
+                                <div><input type="text" name="last-name" placeholder="Enter Your Last Name " required></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="label"><label>Company Name</label></div>
+                            <div><input type="text" name="company-name" placeholder="Enter Your Company Name " class="country" required></div>
+                        </div>
+                        <div>
+                            <div class="label"><label>Adress <span style="color: crimson; font-size: 12px;">*</span></label></div>
+                            <div><input type="text" name="adress" placeholder="Street address" required class="country"></div>
+                            <div><input type="text" name="apartment" placeholder="Apartment, suite,unit etc (optiona)" class="country space" ></div>
+                        </div>
+                        <div class="name">
+                            <div>
+                                <div class="label"><label>State / Country <span style="color: crimson; font-size: 12px;">*</span></label></div>
+                                <div><input type="text" name="state"  required></div>
+                            </div>
+                            <div>
+                                <div class="label"><label>Post / Zip <span style="color: crimson; font-size: 12px;">*</span></label></div>
+                                <div><input type="text" name="Post" required></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="label first-check">
+                                <input type="checkbox" name="create-account" id="">
+                                <label>Create an account ?</label>
+                            </div>
+                            <div class="label second-check">
+                                <input type="checkbox" name="shipping" id="">
+                                <label>Ship To A Different Adress</label>
+                            </div>
+                        </div> 
+                        <div>
+                            <div class="label"><label>Order Notes</label></div>
+                            <textarea name="notes" placeholder="Write your notes here"></textarea>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="right-side">
+                <div>
+                    <h1>Coupon Code</h1>  
+                    <div class="coupen-field">
+                        <p>Enter your coupon code if you have</p>
+                        <div class="coupon-code">
+                            <input type="text" name="coupon" id="" placeholder="Coupon Code">
+                            <button class="code-btn">APPLY</button>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h1>Your Odrder</h1>
+                    <div class="order">
+                        <div>
+                            <div class="details">
+                                <p class="bold firt-coloumn">Prodcut</p>
+                                <p class="bold second-coloumn">Total</p>
+                            </div>
+
+                            <div class="details">
+                                <p class="light firt-coloumn">Top Up T-Shirt<span style="font-size: 15px; margin: 0px 10px;">x</span>1</p>
+                                <p class="light second-coloumn">$250.00</p>
+                            </div>
+
+                            <div class="details">
+                                <p class="light firt-coloumn">Polo Shirt<span style="font-size: 15px; margin: 0px 10px;">x</span>1</p>
+                                <p class="light second-coloumn">$100.00</p>
+                            </div>
+
+                            <div class="details">
+                                <p class="bold firt-coloumn">Cart Subtotal</p>
+                                <p class="light second-coloumn">$350.00</p>
+                            </div>
+
+                            <div class="details last">
+                                <p class="bold firt-coloumn">Order Total</p>
+                                <p class="bold second-coloumn">$350.00</p>
+                            </div>
+                        </div>
+                        <div class="more-details">
+                            <button class="bank">Direct Bank Transfer</button>
+                        </div>
+
+                        <div class="more-details">
+                            <button class="bank">cheque Payment</button>
+                        </div>
+
+                        <div class="more-details">
+                            <button class="bank">Paypal</button>
+                        </div>
+                        <a href="tankyou.html"><div><button class="place-order">PLACE ORDER</button></div></a>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section> 
+    <footer>
+        <section class="footer-Upperside">
+            <div class="footer-left">
+                <div class="title">
+                    <h2>Navigations</h2>
+                </div>
+    
+                <div class="left-content">
+                    <div>
+                        <ul>
+                            <li><a href="#">Sell online</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Shopping cart</a></li>
+                            <li><a href="#">Store builder</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Mobile commerce</a></li>
+                            <li><a href="#">Dropshipping</a></li>
+                            <li> <a href="#">Website development</a></li>
+                        </ul>  
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Point of sale</a></li>
+                            <li><a href="#">Hardware</a></li>
+                            <li><a href="#">Sofware</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer-right">
+                <div class="left-side">
+                    <h2>Promo</h2>
+                    <div>
+                        <img src="./Images/hero_1.jpg" alt="" class="photo-footer">
+                        <p class="first-para">Finding Your Perfect Shoes</p>
+                        <p class="second-para">Promo from Jnuary 15-25.2019</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="right-side">
+                    <h2>Contact Info</h2>
+                    <div class="cont1">
+                        <i class="fa-solid fa-location-dot footer-icons"></i>
+                        <p> 203 fake St. Mountain View, san Francisco California USA</p>
+                    </div>
+                    <div class="cont tel">
+                        <i class="fa-solid fa-phone footer-icons"></i>
+                        <p>+2 392 3929 210</p>
+                    </div>
+                    <div class="cont">
+                        <i class="fa-sharp fa-solid fa-envelope footer-icons"></i>
+                        <p>emailadress@gmail.com</p>
+                    </div>
+
+                    <div >
+                        <p class="subscribe">Subscribe</p>
+                        <div class="send-email">
+                            <input type="email" placeholder="Email">
+                            <button>SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer-underside">
+            <p>Copyright &copy;2023 All rights reserved | This templete is made with <i class="fa-solid fa-heart"></i> by
+                <span style="color: blueviolet ; font-size: 16px;" >Mohamed Abdelfattah Aly</span>
+              <p>
+        </div>
+    </footer>
+</body>
+</html>

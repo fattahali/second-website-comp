@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+</head>
+<body>
+    <header>
+        <section class="header">
+            <div class="search">
+                <input type="text" placeholder="search" size="20px">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>     
+            <div class="logo">
+                <a href="index.html"><p>Mohamed Abdelfattah Aly</p></a>
+                
+            </div>
+            <div class="header-icons">
+                
+                <div class="circle">2</div>
+                <i class="fa-solid fa-user icons"></i>
+                <i class="fa-regular fa-heart icons"></i>
+                <i class="fa-solid fa-cart-shopping icons"></i>
+            </div>
+        </section>
+        <nav>
+            <a href="index.html" class="arrow">
+                    HOME
+                    <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <a href="about.html">ABOUT
+                <i class="fa-solid fa-angle-down"></i>
+            </a>
+            <a href="shop.html">SHOP</a>
+            <a href="#">CATALOUGE</a>
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">CONTACT</a>
+        </nav>
+    </header>
+    <section class="cart-sec1">
+        <p><span style="color: blueviolet;">Home</span> / <span style="color: black;">Cart</span></p>
+    </section>
+    <section class="cart-sec2">
+        <div class="items">
+            <table>
+                <thead>
+                    <tr>
+                        <th><h2>Image</h2></th>
+                        <th><h2>Product</h2></th>
+                        <th><h2>Price</h2></th>
+                        <th><h2>Quantity</h2></th>
+                        <th><h2>Total</h2></th>
+                        <th><h2>Remove</h2></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="img"><img src="./Images/cloth_1.jpg" alt=""></td>
+                        <td class="product"><p>Top Up T-Shirt</p></td>
+                        <td class="price"><p>$49.00</p></td>
+                        <td class="quantity">
+                            <div class="add-minus-Q">
+                                <div>
+                                    <button class="singl-product-button-left"><i class="fa-solid fa-minus"></i></button>
+                                    <input type="number" name="" id="" class="number" value="1">
+                                    <button class="singl-product-button-right" ><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="total"><p>$49.00</p></td>
+                        <td class="remove">
+                            <div><button>X</button></div>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="img"><img src="./Images/cloth_2.jpg" alt=""></td>
+                        <td class="product"><p>Polo Shirt</p></td>
+                        <td class="price"><p>$49.00</p></td>
+                        <td class="quantity">
+                            <div class="add-minus-Q">
+                                <div>
+                                    <button class="singl-product-button-left"><i class="fa-solid fa-minus"></i></button>
+                                    <input type="number" name="" id="" class="number" value="1">
+                                    <button class="singl-product-button-right" ><i class="fa-solid fa-plus"></i></button>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="total"><p>$49.00</p></td>
+                        <td class="remove">
+                            <div><button>X</button></div>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="cart">
+            <div class="left-side">
+                <div class="upper-buttons">
+                    <button class="update-sec2 continue-sec2">UPDATE CART</button>
+                    <button class="continue-sec2">CONTINUE SHOPPING</button>
+                </div>
+
+                <div class="lower-side">
+                    <h2>Coupon</h2>
+                    <div><p>Enter your Coupon code if you have one</p></div>
+                    <div class="in-btn">
+                        <input type="text" name="code" placeholder="Coupon Code" >
+                        <button class="continue-sec2 apply">APPLY COUPON</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="right-side">
+                <div class="total">CART TOTALS</div>
+                <div>
+                    <div class="total-items">
+                        <p>Subtotal</p>
+                        <p>$230.00</p>
+                    </div>
+                    <div class="total-items">
+                        <p>Total</p>
+                        <p>$230.00</p>
+                    </div>
+                </div>
+                <div>
+                    <a href="checkout.html"><button class="continue-sec2 proceed">PROCEED TO CHECKOUT</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="footer-Upperside">
+            <div class="footer-left">
+                <div class="title">
+                    <h2>Navigations</h2>
+                </div>
+    
+                <div class="left-content">
+                    <div>
+                        <ul>
+                            <li><a href="#">Sell online</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Shopping cart</a></li>
+                            <li><a href="#">Store builder</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Mobile commerce</a></li>
+                            <li><a href="#">Dropshipping</a></li>
+                            <li> <a href="#">Website development</a></li>
+                        </ul>  
+                    </div>
+                    <div>
+                        <ul>
+                            <li><a href="#">Point of sale</a></li>
+                            <li><a href="#">Hardware</a></li>
+                            <li><a href="#">Sofware</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer-right">
+                <div class="left-side">
+                    <h2>Promo</h2>
+                    <div>
+                        <img src="./Images/hero_1.jpg" alt="" class="photo-footer">
+                        <p class="first-para">Finding Your Perfect Shoes</p>
+                        <p class="second-para">Promo from Jnuary 15-25.2019</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="right-side">
+                    <h2>Contact Info</h2>
+                    <div class="cont1">
+                        <i class="fa-solid fa-location-dot footer-icons"></i>
+                        <p> 203 fake St. Mountain View, san Francisco California USA</p>
+                    </div>
+                    <div class="cont tel">
+                        <i class="fa-solid fa-phone footer-icons"></i>
+                        <p>+2 392 3929 210</p>
+                    </div>
+                    <div class="cont">
+                        <i class="fa-sharp fa-solid fa-envelope footer-icons"></i>
+                        <p>emailadress@gmail.com</p>
+                    </div>
+
+                    <div >
+                        <p class="subscribe">Subscribe</p>
+                        <div class="send-email">
+                            <input type="email" placeholder="Email">
+                            <button>SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="footer-underside">
+            <p>Copyright &copy;2023 All rights reserved | This templete is made with <i class="fa-solid fa-heart"></i> by
+                <span style="color: blueviolet ; font-size: 16px;" >Mohamed Abdelfattah Aly</span>
+              <p>
+        </div>
+    </footer>
+</body>
+</html>
