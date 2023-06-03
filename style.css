@@ -624,6 +624,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor:pointer
 }
 .latest-button li button .fa-angle-down{
     margin-left: 5px;
@@ -713,6 +714,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor:pointer
 }
 .ref-button li button .fa-angle-down{
     margin-left: 5px;
