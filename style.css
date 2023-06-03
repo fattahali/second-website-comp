@@ -767,10 +767,10 @@ footer{
 .ref-button li ul.dropdown{
     width: 140%;
     background:#f5f3f3  ;
+    border-radius: 4px;
     position: absolute;
     z-index: 100;
-    display: none;
-    border-radius: 4px;
+    display: none; 
 }
 .ref-button li a:hover{
     background:#e6e4e4 ;
