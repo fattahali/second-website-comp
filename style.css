@@ -624,7 +624,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor:pointer
+    cursor:pointer;
 }
 .latest-button li button .fa-angle-down{
     margin-left: 5px;
@@ -679,6 +679,7 @@ footer{
     position: absolute;
     z-index: 100;
     display: none;
+    border-radius: 4px;
 }
 .latest-button li a:hover{
     background:#e6e4e4 ;
@@ -714,7 +715,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor:pointer
+    cursor:pointer;
 }
 .ref-button li button .fa-angle-down{
     margin-left: 5px;
@@ -769,6 +770,7 @@ footer{
     position: absolute;
     z-index: 100;
     display: none;
+    border-radius: 4px;
 }
 .ref-button li a:hover{
     background:#e6e4e4 ;
