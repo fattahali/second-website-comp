@@ -635,10 +635,9 @@ footer{
 }
 .latest-button li .middle-links{
     display: block;
-    padding: 10px 25px;
+    padding: 10px 25px 10px 30px;
     text-decoration: none;
     text-align: left;
-    padding-left: 30px;
     font-size: 16px;
     color: gray;
     border-right: 1px solid rgb(203, 201, 201);
@@ -651,10 +650,9 @@ footer{
     border-top-left-radius:5px;
     border-top-right-radius:5px;
     display: block;
-    padding: 10px 25px;
+    padding: 10px 25px 10px 30px;
     text-decoration: none;
     text-align: left;
-    padding-left: 30px;
     font-size: 16px;
     color: gray;
 }
@@ -665,10 +663,9 @@ footer{
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;
     display: block;
-    padding: 10px 25px;
+    padding: 10px 25px 10px 30px;
     text-decoration: none;
     text-align: left;
-    padding-left: 30px;
     font-size: 16px;
     color: gray;
 }
@@ -727,10 +724,9 @@ footer{
 }
 .ref-button li .middle-links{
     display: block;
-    padding: 10px 25px;
+    padding: 10px 25px 10px 30px;
     text-decoration: none;
     text-align: left;
-    padding-left: 30px;
     font-size: 16px;
     color: gray;
     border-right: 1px solid rgb(203, 201, 201);
@@ -743,10 +739,9 @@ footer{
     border-top-left-radius:5px;
     border-top-right-radius:5px;
     display: block;
-    padding: 10px 25px;
+    padding: 10px 25px 10px 30px;
     text-decoration: none;
     text-align: left;
-    padding-left: 30px;
     font-size: 16px;
     color: gray;
 }
@@ -757,10 +752,9 @@ footer{
     border-bottom-left-radius:5px;
     border-bottom-right-radius:5px;
     display: block;
-    padding: 10px 25px;
+    padding: 10px 25px 10px 30px;
     text-decoration: none;
     text-align: left;
-    padding-left: 30px;
     font-size: 16px;
     color: gray;
 }
