@@ -882,8 +882,9 @@ footer{
     font-size: 17px;
     font-weight: 700;
 }
-.shop-left-side .category .category-items .name-c{
+.shop-left-side .category .category-items a{
     color: blueviolet;
+    text-decoration: none;
 }
 
 .shop-left-side .category .category-items .quantity-c{
