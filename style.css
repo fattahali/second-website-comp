@@ -123,6 +123,61 @@ nav .fa-angle-down{
 nav a:hover{
     color: blueviolet;
 }
+
+.Home-button{
+    list-style: none;
+}
+.Home-button li{
+    display: inline-block;
+    position: relative;
+}
+.Home-button .link{
+    margin-right: 15px;
+    
+}
+.Home-button li .upper{
+    border-top: 2px solid blueviolet;
+}
+.Home-button li .middle-links{
+    margin: 0;
+    display: block;
+    padding: 10px 25px 10px 15px;
+    text-decoration: none;
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+    border-right: 1px solid rgb(203, 201, 201);
+    border-left: 1px solid rgb(203, 201, 201)
+}
+.Home-button li .lower-link{
+    margin: 0;
+    border-bottom: 1px solid rgb(203, 201, 201);
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;  
+}
+.Home-button li ul.dropdown li{
+    display: block;
+}
+.Home-button li ul.dropdown{
+    padding-top: 25px;
+    width: 250%;
+    background:#fefefe  ;
+    position: absolute;
+    z-index: 100;
+    display: none;
+    left: 15px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    /* border-top:2px solid blueviolet; */
+}
+.Home-button ul li a:hover{
+    color: blueviolet;
+    background-color:#f3f1f1;
+}
+.Home-button li:hover ul.dropdown{
+    display: block;
+}
+
 /*End Nav*/
 /*End header*/
 
